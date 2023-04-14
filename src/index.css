@@ -1,13 +1,75 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-form-container .select-service-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.service-form-container .select-year-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.service-form-container .select-make-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.service-form-container .select-model-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.service-form-container .select-engine-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.service-form-container .user-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.user-info-wrapper .name-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.user-info-wrapper .email-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.user-info-wrapper .phone-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
 }
